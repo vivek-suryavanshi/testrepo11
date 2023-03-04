@@ -1,0 +1,48 @@
+ For MAC
+ 	brew install maven
+ 	
+ For Windows
+ 	https://dlcdn.apache.org/maven/maven-3/3.9.0/binaries/apache-maven-3.9.0-bin.zip
+ 	
+ 	Unzip
+ 	
+ 	Maven Folder
+ 		
+ 		
+ 	Env Variable
+ 		1- User Variable
+ 			MAVEN_HOME= Path of maven base directory
+ 			
+ 		2- System Variable
+ 			Search for path variable
+ 			Edit the path (dont delete this or change any path)
+ 			Add new entry of maven directory till bin folder
+ 			
+ 			
+ Task
+ 	download code
+ 	install maven
+ 	navigate till root
+ 	mvn --version - mvn is not recognised - 3.9.0
+ 	mvn clean
+ 	mvn test
+ 	mvn clean test
+ 
+Try running multiple goal 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
