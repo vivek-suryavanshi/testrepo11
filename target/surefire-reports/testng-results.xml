@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-09T06:13:14 IST" name="Suite" finished-at="2023-03-09T06:13:23 IST" duration-ms="8747">
+  <suite started-at="2023-03-09T06:25:12 IST" name="Suite" finished-at="2023-03-09T06:25:21 IST" duration-ms="8653">
     <groups>
     </groups>
-    <test started-at="2023-03-09T06:13:14 IST" name="Test" finished-at="2023-03-09T06:13:23 IST" duration-ms="8747">
+    <test started-at="2023-03-09T06:25:12 IST" name="Test" finished-at="2023-03-09T06:25:21 IST" duration-ms="8653">
       <class name="testcases.test00">
-        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:testcases.test00@54e1c68b]" started-at="2023-03-09T06:13:14 IST" name="browserLaunch" finished-at="2023-03-09T06:13:15 IST" duration-ms="956" status="PASS">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:testcases.test00@74bf1791]" started-at="2023-03-09T06:25:12 IST" name="browserLaunch" finished-at="2023-03-09T06:25:13 IST" duration-ms="974" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="JS_prompt()[pri:0, instance:testcases.test00@54e1c68b]" started-at="2023-03-09T06:13:15 IST" name="JS_prompt" finished-at="2023-03-09T06:13:23 IST" duration-ms="7769" status="PASS">
+        <test-method signature="JS_prompt()[pri:0, instance:testcases.test00@74bf1791]" started-at="2023-03-09T06:25:13 IST" name="JS_prompt" finished-at="2023-03-09T06:25:21 IST" duration-ms="7658" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- JS_prompt -->
