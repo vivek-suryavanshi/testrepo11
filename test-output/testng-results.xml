@@ -2,27 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-04T04:53:23 IST" name="Default suite" finished-at="2023-03-04T04:53:40 IST" duration-ms="17209">
+  <suite started-at="2023-03-09T06:12:41 IST" name="Default suite" finished-at="2023-03-09T06:12:49 IST" duration-ms="7990">
     <groups>
     </groups>
-    <test started-at="2023-03-04T04:53:23 IST" name="Default test" finished-at="2023-03-04T04:53:40 IST" duration-ms="17209">
+    <test started-at="2023-03-09T06:12:41 IST" name="Default test" finished-at="2023-03-09T06:12:49 IST" duration-ms="7990">
       <class name="testcases.test00">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.test00@1de5f259]" started-at="2023-03-04T04:53:23 IST" name="setup" finished-at="2023-03-04T04:53:29 IST" duration-ms="6034" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:testcases.test00@1de5f259]" started-at="2023-03-04T04:53:29 IST" name="browserLaunch" finished-at="2023-03-04T04:53:33 IST" duration-ms="4562" status="PASS">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:testcases.test00@4a883b15]" started-at="2023-03-09T06:12:41 IST" name="browserLaunch" finished-at="2023-03-09T06:12:42 IST" duration-ms="1018" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="JS_confirm()[pri:0, instance:testcases.test00@1de5f259]" started-at="2023-03-04T04:53:33 IST" name="JS_confirm" finished-at="2023-03-04T04:53:40 IST" duration-ms="6489" status="PASS">
+        <test-method signature="JS_prompt()[pri:0, instance:testcases.test00@4a883b15]" started-at="2023-03-09T06:12:42 IST" name="JS_prompt" finished-at="2023-03-09T06:12:49 IST" duration-ms="6957" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- JS_confirm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.test00@1de5f259]" started-at="2023-03-04T04:53:40 IST" name="tearDown" finished-at="2023-03-04T04:53:40 IST" duration-ms="107" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
+        </test-method> <!-- JS_prompt -->
       </class> <!-- testcases.test00 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
