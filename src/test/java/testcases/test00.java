@@ -5,10 +5,14 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class test00 {
 WebDriver driver;
@@ -17,7 +21,14 @@ WebDriver driver;
 	public void browserLaunch()
 	{
 		
-		driver = new SafariDriver();
+		driver = new EdgeDriver();
+		//WebDriverManager.chromedriver().setup();
+		//driver = new ChromeDriver();
+		/*ChromeOptions chromeOptions = new ChromeOptions();
+		WebDriverManager.chromedriver().driverVersion("110.0.5481.77").setup();
+		driver = new ChromeDriver(chromeOptions);
+		 */
+		//WebDriverManager.chromedriver().driverVersion("110.0.5481.77").setup();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.manage().window().maximize();
 	}
