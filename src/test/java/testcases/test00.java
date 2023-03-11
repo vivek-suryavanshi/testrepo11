@@ -24,11 +24,15 @@ WebDriver driver;
 		driver = new EdgeDriver();
 		//WebDriverManager.chromedriver().setup();
 		//driver = new ChromeDriver();
-		/*ChromeOptions chromeOptions = new ChromeOptions();
-		WebDriverManager.chromedriver().driverVersion("110.0.5481.77").setup();
-		driver = new ChromeDriver(chromeOptions);
-		 */
-		//WebDriverManager.chromedriver().driverVersion("110.0.5481.77").setup();
+		//ChromeOptions chromeOptions = new ChromeOptions();
+		//driverVersion("110.0.5481.77")
+		//WebDriverManager.edgedriver().create();
+		//driver = new ChromeDriver();
+		 
+		
+		/*ChromeOptions opt = new ChromeOptions();
+		opt.addArguments("--remote-allow-origins=*");
+		driver = new ChromeDriver(opt);*/
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.manage().window().maximize();
 	}
